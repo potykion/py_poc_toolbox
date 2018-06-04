@@ -8,8 +8,9 @@ py_poc toolbox
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Содержимое
 
-   docs/sphinx
+   sphinx
+   pre-commit
 
 

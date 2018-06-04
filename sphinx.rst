@@ -1,7 +1,7 @@
 Sphinx
 #######
 
-**Sphinx** - тулза для создания доков в питоне. Используется любой уважающей себя библиотекой,
+`Sphinx`_ - тулза для создания доков в питоне. Используется любой уважающей себя библиотекой,
 например `requests`_, `flask`_ и сам `питон`_.
 
 
@@ -42,9 +42,16 @@ Sphinx
 * Можно это все задеплоить на **жидхаб страницы** или **ридзедокс**, или по классике - статика на серваке
 * Куча всяких расширений и тем
 
+Что я юзаю:
+
+* `Соглашение по секциям`_ - можно юзать разные знаки для разных разделов, что вносит смуту,
+данное соглашение помогает именовать секции в едином стиле
+
+.. _Sphinx: http://www.sphinx-doc.org/en/master/index.html
 .. _requests: http://docs.python-requests.org/en/master/
 .. _flask: http://flask.pocoo.org/docs/1.0/
 .. _питон: https://docs.python.org/3/index.html
 .. _reStructuredText: http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html
 .. _тоже можно: http://www.sphinx-doc.org/en/master/usage/markdown.html
 .. _геттинг стардед гайда: http://www.sphinx-doc.org/en/master/usage/quickstart.html
+.. _Соглашение по секциям: http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#sections
