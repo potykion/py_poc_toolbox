@@ -10,7 +10,6 @@ py_poc toolbox
    :maxdepth: 2
    :caption: Содержимое
 
-   sphinx
    pre-commit
 
 
