@@ -3,13 +3,13 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-py_poc toolbox
+py_poc_toolbox
 ==========================================
 
 .. toctree::
    :maxdepth: 2
-   :caption: Содержимое
 
    pre-commit
+   line-profiling
 
 
