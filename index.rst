@@ -6,8 +6,11 @@
 py_poc_toolbox
 ==========================================
 
+База знаний по питончику и веб-разработке.
+
 .. toctree::
    :maxdepth: 2
+   :caption: Содержимое
 
    pre-commit
    line-profiling

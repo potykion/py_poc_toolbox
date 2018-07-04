@@ -17,12 +17,18 @@ line_profiler
     pip install line_profiler
 
 
-Профилирование тестов
-*********************
+Профилирование
+***************
 
-.. todo профилирование через команду pytest не работает, потому что @profile не определен
+Профилирование можно осуществлять посредством запуска профилируемого модуля с помощью ``kernprof`` или
+посредством создания объекта ``LineProfiler`` и передачи ему профилируемой функции.
 
-Декорируем профилируемую функцию с помощью ``@profile``.
+kernprof
+========
+
+В качестве примера использования ``kernprof``, проведем профилирование теста.
+
+Декорируем профилируемую функцию с помощью ``@profile``, дополнительных импортов не требуется.
 
 Создаем модуль, запускающий тесты, в функцию ``pytest.main`` передаем путь к тесту:
 
@@ -64,6 +70,29 @@ line_profiler
     python -m line_profiler {module}.py.lprof
 
 
-
 Источник: https://stackoverflow.com/a/23765051/5500609
 
+LineProfiler
+===============
+
+Для профилирования с помощью ``LineProfiler`` определим декоратор,
+создающий экземпляр класса и сохраняющий результаты профилирования:
+
+.. code-block:: python
+
+    from line_profiler import LineProfiler
+
+    def profile(func):
+        def wrapper(*args, **kwargs):
+            profiler = LineProfiler(func)
+            profiler.enable_by_count()
+            result = func(*args, **kwargs)
+            profiler.dump_stats(f'{func.__name__}.lprof')
+            return result
+
+После декорирования и запуска профилируемых функций, сгенерируются файлы с результами.
+Для просмотра - снова используем ``line_profiler``.
+
+Источник: https://zapier.com/engineering/profiling-python-boss/
+
+.. _line_profiler: https://github.com/rkern/line_profiler
