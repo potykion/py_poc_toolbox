@@ -22,7 +22,7 @@ GINO
 
         id: int = db.Column(db.Integer(), primary_key=True)
         title: str = db.Column(db.Unicode())
-        text: str = db.Column(db.Unicode(), required=True)
+        text: str = db.Column(db.Unicode(), nullable=False)
         image_url: str = db.Column(db.Unicode())
 
         created: datetime = db.Column(db.DateTime(), default=datetime.now)
