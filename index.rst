@@ -15,3 +15,4 @@ py_poc_toolbox
    pre-commit
    line-profiling
    gino
+   postgres
