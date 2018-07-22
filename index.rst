@@ -16,3 +16,4 @@ py_poc_toolbox
    line-profiling
    gino
    postgres
+   packaging
