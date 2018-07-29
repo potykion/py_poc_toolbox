@@ -36,6 +36,33 @@
 
 - **CHANGELOG.md** - описание изменений в новых версиях пакета (`формат <https://keepachangelog.com/en/1.0.0/>`_). Версионирование пакетов хорошо делать соглано `правилам версионирования пакетов`_.
 
+
+Обновление версии
+*****************
+
+Для автоматизации версионирования пакетов можно использовать `bump2version <https://github.com/c4urself/bump2version>`_:
+
+1. Устанавливаем:
+
+    .. code-block:: shell
+
+        pip install bump2version
+
+2. Создаем конфиг - `.bumpversion.cfg`:
+
+    .. code-block:: ini
+
+        [bumpversion]
+        current_version = 0.2.0
+        commit = True
+        tag = True
+
+        [bumpversion:file:setup.py]
+
+3. Обновляем версию:
+
+    bump2version patch
+
 setup.py
 ========
 
