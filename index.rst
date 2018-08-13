@@ -17,3 +17,4 @@ py_poc_toolbox
    gino
    postgres
    packaging
+   supervisor
