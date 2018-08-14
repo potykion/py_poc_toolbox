@@ -52,7 +52,7 @@ Supervisor
 
 .. code-block:: shell
 
-    pipenv run scrip.py
+    pipenv run python scrip.py
 
 Полный путь к запускаемому скрипту писать не нужно, так как рабочая директория определена в ``supervisord.conf``.
 
