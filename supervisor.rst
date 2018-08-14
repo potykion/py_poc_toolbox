@@ -84,6 +84,27 @@ Supervisor
 
     sudo supervisorctl restart {process_name}:*
 
+Если все плохо
+***************
+
+Если возникают ошибки, типа:
+
+.. code-block:: shell
+
+    unix:///var/run/supervisor.sock no such file
+
+Или что-нибудь такое:
+
+.. code-block:: shell
+
+    error: <class 'socket.error'>, [Errno 2] No such file or directory: file: /usr/lib/python2.7/socket.py line: 224
+
+То, проще всего, перезапустить supervisor:
+
+.. code-block:: shell
+
+    sudo supervisord
+
 
 .. _Supervisor: http://supervisord.org/
 .. _здесь: http://supervisord.org/configuration.html
