@@ -84,6 +84,11 @@ Supervisor
 
     sudo supervisorctl restart {process_name}:*
 
+Логи
+=====
+
+Логи supervisor находятся по такому пути: ``/var/log/supervisor`` - там же можно посмотреть почему процесс имеет статус `FATAL`
+
 Если все плохо
 ***************
 
