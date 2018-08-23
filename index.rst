@@ -18,3 +18,4 @@ py_poc_toolbox
    postgres
    packaging
    supervisor
+   jenkins
