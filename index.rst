@@ -20,3 +20,4 @@ py_poc_toolbox
    supervisor
    jenkins
    elastic
+   docker
