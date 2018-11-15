@@ -15,9 +15,31 @@ ElasticSearch
 
 Иначе `так <https://www.elastic.co/guide/en/elasticsearch/reference/current/install-elasticsearch.html>`_
 
+Конфигурация для supervisor:
+
+.. code-block:: shell
+
+    [program:elasticsearch]
+    user=elasticsearch
+    command=/usr/share/elasticsearch/bin/elasticsearch
+    autostart=true
+    autorestart=true
+    environment=ES_HEAP_SIZE=2g
+
 Помимо ElasticSearch, полезно поставить `Kibana <https://www.elastic.co/products/kibana>`_ - веб-апп для просмотра содержимого бд
 
 Ставится `так <https://www.elastic.co/downloads/kibana>`_
+
+Конфигурация для supervisor:
+
+.. code-block:: shell
+
+    [program:kibana]
+    user=root
+    command=/usr/share/kibana/bin/kibana
+    autostart=true
+    autorestart=true
+
 
 API
 ***
