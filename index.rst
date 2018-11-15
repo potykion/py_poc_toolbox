@@ -19,3 +19,4 @@ py_poc_toolbox
    packaging
    supervisor
    jenkins
+   elastic
