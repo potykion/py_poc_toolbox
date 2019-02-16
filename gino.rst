@@ -3,6 +3,13 @@ GINO
 
 `GINO`_ - асинхронная ORM для Postrgres с SQLAlchemy-синтаксисом.
 
+.. warning::
+
+    Попользовавшись, могу сказать, что gino - так себе: тестировать трудно, создает кучу лишних соединений
+
+    Лучше использовать SQLAlchemy Core + асинхронный движок к бд, например `aiopg`_
+
+
 Установка
 **********
 
@@ -66,3 +73,4 @@ GINO
 .. _GINO: https://github.com/fantix/gino
 .. _дополнительные параметры: http://docs.sqlalchemy.org/en/latest/core/metadata.html#sqlalchemy.schema.Column
 .. _SQLAlchemy-тип: http://docs.sqlalchemy.org/en/latest/core/type_basics.html
+.. _aiopg: https://github.com/aio-libs/aiopg

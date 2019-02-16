@@ -21,3 +21,4 @@ py_poc_toolbox
    jenkins
    elastic
    docker
+   random
