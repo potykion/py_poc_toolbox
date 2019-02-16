@@ -40,6 +40,30 @@ ElasticSearch
     autostart=true
     autorestart=true
 
+Статус
+***********
+
+Статус elasticsearch можно посмотреть так:
+
+.. code-block:: shell
+
+    curl -X GET "localhost:9200/_cluster/health"
+
+Описание метрик можно найти `тут <https://habr.com/ru/company/yamoney/blog/358550/>`_
+
+status: yellow && unassigned_shards > 0
+================================================
+
+При запуске elasticsearch на одной машине без репликации появляются неназначенные шарды
+
+Чтобы убрать их, нужно обнулить количество реплик для каждого индекса:
+
+.. code-block:: shell
+
+    curl -X PUT "localhost:9200/*/_settings" -H 'Content-Type: application/json' -d'{"index" : {"number_of_replicas" : 0}}'
+
+После выполнения этой команды, статус должен измениться на зеленый, а количество неназначенных шардов должно быть равно 0
+
 
 API
 ***
