@@ -34,3 +34,13 @@ IIS
 .. code-block:: shell
 
     iisreset
+
+
+RDP
+==========
+
+RDP - удаленный рабочий стол
+
+Всякая ссылкота:
+
+- `Как прикрутить локальный диск, чтобы заливать и стягивать файлы по RDP <https://help.1and1.co.uk/servers-c40665/dedicated-server-windows-c40591/organization-via-control-panel-c43542/transfer-files-to-windows-server-using-remote-desktop-a731882.html>`_
