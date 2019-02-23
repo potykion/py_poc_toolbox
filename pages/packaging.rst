@@ -144,7 +144,7 @@ setup.py
 
 9.  Теперь, перейдя по `{айпи, где крутится nginx}:8091`, увидим сообщение о развернутом pypi-сервере:
 
-.. image:: ../_static/pypi.png
+.. image:: https://raw.githubusercontent.com/potykion/py_poc_toolbox/master/_static/pypi.PNG
 
 Загрузка пакетов
 ====================
