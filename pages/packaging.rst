@@ -219,6 +219,12 @@ Poetry
 
     poetry publish --build
 
+4. Инкремент версии
+
+.. code-block:: shell
+
+    poetry version (patch|minor|major)
+
 
 Загрузка в приватный PyPI
 =========================
