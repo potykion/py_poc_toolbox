@@ -12,13 +12,14 @@ py_poc_toolbox
    :maxdepth: 2
    :caption: Содержимое
 
-   pre-commit
-   line-profiling
-   gino
-   postgres
-   packaging
-   supervisor
-   jenkins
-   elastic
-   docker
-   random
+   pages/sphinx
+   pages/pre-commit
+   pages/line-profiling
+   pages/gino
+   pages/postgres
+   pages/packaging
+   pages/supervisor
+   pages/jenkins
+   pages/elastic
+   pages/docker
+   pages/random

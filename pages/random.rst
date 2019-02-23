@@ -24,7 +24,7 @@ IIS
 
 `IIS <https://www.iis.net/>`_ - веб-сервер аля Nginx от Microsoft
 
-.. image:: _static/iis.png
+.. image:: ../_static/iis.png
 
 Команды
 *************
