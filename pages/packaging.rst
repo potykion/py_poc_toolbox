@@ -1,4 +1,4 @@
-Создание и загрузка PyPI пакетов
+Питон-пакеты и PyPI
 ############################################
 
 `PyPI`_ (Python Package Index) - хранилище питон-либ, установка которых производится с помощью ``pip install``.
@@ -71,7 +71,6 @@ setup.py
 ========
 
 - Если нужно добавить зависимости от других пакетов, необходимо прописать настройку ``install_requires`` в функции ``setuptools.setup`` в формате **"{package}{operator}{version}"** (например, ``"jinja2>=2.10"``)
-
 
 
 Приватный PyPI
@@ -184,6 +183,66 @@ setup.py
 .. code-block:: shell
 
     pipenv install {package-name}
+
+
+Poetry
+***********
+
+Вместо создания setup.py, сборку через sdist, деплой через twine, ункремент через bump2version можно использовать Poetry
+
+`Poetry <https://poetry.eustace.io/>`_ - альтернатива Pipenv и тулза для создания питон-пакетов
+
+Создание пакетов
+=============================================
+
+1.a Создаем pyproject.toml - микс Pipfile и setup.py:
+
+.. code-block:: shell
+
+    poetry init
+
+1.b Для установки зависимостей из существующего pyproject.toml:
+
+.. code-block:: shell
+
+    poetry install
+
+2. Устанавливаем новые зависимости:
+
+.. code-block:: shell
+
+    poetry add {package_name}
+
+3. Собираем и загружаем в PyPI:
+
+.. code-block:: shell
+
+    poetry publish --build
+
+
+Загрузка в приватный PyPI
+=========================
+
+Добавление приватного репозитория {host:port}, с именем {pypi_alias}:
+
+.. code-block:: shell
+
+    poetry config repositories.{pypi_alias} {host:port}
+
+
+Добавление логина/пароля для доступа в приватный репо:
+
+.. code-block:: shell
+
+    poetry config http-basic.{pypi_alias} {username} {password}
+
+Загрузка пакета:
+
+.. code-block:: shell
+
+    poetry publish -r {pypi_alias} --build
+
+
 
 
 .. _PyPI: https://pypi.org
