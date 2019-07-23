@@ -50,7 +50,7 @@ Pre-commit хуки - команды, которые запускаются до
         - id: flake8
 
     # форматирование с помощью black
-    -   repo: https://github.com/ambv/black
+    -   repo: https://github.com/ambv/psf
         rev: stable
         hooks:
         - id: black
@@ -62,6 +62,6 @@ Pre-commit хуки - команды, которые запускаются до
 Хуки запускаются автоматом при коммите, для запуска хуков вручную - ``pre-commit run -a``
 
 .. _pre-commit: https://pre-commit.com
-.. _black: https://github.com/ambv/black
+.. _black: https://github.com/psf/black
 .. _pytest: https://pytest.org
 .. _pipenv: https://github.com/pypa/pipenv
