@@ -50,7 +50,7 @@ Pre-commit хуки - команды, которые запускаются до
         - id: flake8
 
     # форматирование с помощью black
-    -   repo: https://github.com/ambv/psf
+    -   repo: https://github.com/psf/black
         rev: stable
         hooks:
         - id: black
