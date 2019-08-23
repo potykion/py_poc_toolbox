@@ -1,15 +1,18 @@
 # Table of contents
 
 * [py\_poc\_toolbox](README.md)
-* [Sphinx](sphinx.md)
-* [pre-commit](pre-commit.md)
-* [line\_profiler](line_profiler.md)
-* [Postgres](postgres.md)
-* [Питон-пакеты и PyPI](pypi.md)
-* [Supervisor](supervisor.md)
-* [Jenkins](jenkins.md)
-* [ElasticSearch](elasticsearch.md)
-* [Docker](docker.md)
-* [Рандом](random.md)
-* [DDD](ddd.md)
+
+## pages
+
+* [Sphinx](pages/sphinx.md)
+* [pre-commit](pages/pre-commit.md)
+* [line\_profiler](pages/line_profiler.md)
+* [Postgres](pages/postgres.md)
+* [Питон-пакеты и PyPI](pages/pypi.md)
+* [Supervisor](pages/supervisor.md)
+* [Jenkins](pages/jenkins.md)
+* [Docker](pages/docker.md)
+* [ElasticSearch](pages/elasticsearch.md)
+* [Рандом](pages/random.md)
+* [DDD](pages/ddd.md)
 
