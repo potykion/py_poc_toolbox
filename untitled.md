@@ -69,7 +69,13 @@ Welcome to sample documentation!
    guidelines
 ```
 
-* [Синтаксис rst](http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html)
+### Синтаксис
+
+Дефолтовый язык разметки в Sphinx - [reStructuredText](http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html) \(rst\). 
+
+Основное преимущество перед [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) - расширяемость. Например, с помощью rst можно рисовать графики \([так](https://sphinxcontrib-mermaid-demo.readthedocs.io/en/latest/) и [сяк](https://www.sphinx-doc.org/en/master/usage/extensions/graphviz.html)\), и [документировать API](https://sphinxcontrib-httpdomain.readthedocs.io/en/stable/).
+
+Markdown так же можно использовать в качестве языка разметки документов - для этого нужно поставить [расширение для базовой поддержки](http://www.sphinx-doc.org/en/master/usage/markdown.html) + если нужны таблицы, то [расширение для рендеринга таблиц](https://pypi.org/project/sphinx-markdown-tables/).
 
 ### Поддержка в IDE
 
@@ -104,11 +110,6 @@ Welcome to sample documentation!
 + при расширении колонки, нужно перерисовывать всю таблицу заново 
 
 Для генерации и выравнивания разметки таблицы есть специальное расширение - [Table Formatter](https://marketplace.visualstudio.com/items?itemName=shuworks.vscode-table-formatter)
-
-### Поддержка markdown
-
-* [Основа](http://www.sphinx-doc.org/en/master/usage/markdown.html)
-* [Рендеринг таблиц](https://pypi.org/project/sphinx-markdown-tables/)
 
 ### Темы
 
