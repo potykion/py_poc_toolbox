@@ -11,4 +11,5 @@
 * [ElasticSearch](elasticsearch.md)
 * [Docker](docker.md)
 * [Рандом](random.md)
+* [DDD](ddd.md)
 
