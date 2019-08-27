@@ -15,10 +15,9 @@
 5. **Services** - сервисы - здесь описываются бизнес сценарии
 6. **Repositories** - репозитории - абстракция над любым персистенцем \(бд/celery-worker\); например, в контексте бд репозиторий преобразует бизнес-сущности в записи бд и сует их в бд
 
-### Видасы
+### Материалы
 
-* [Борис Цема, Wargaming.net «Как мы уменьшили сложность наших проектов»](https://www.youtube.com/watch?v=45rk0iyTn7I) - про ddd в питоне
-* \*\*\*\*[Алексей Мерсон — Domain-driven design: рецепт для прагматика](https://www.youtube.com/watch?v=CR9mLGN9jh0) - про ddd на c\#
-
-
+* [Борис Цема, Wargaming.net «Как мы уменьшили сложность наших проектов»](https://www.youtube.com/watch?v=45rk0iyTn7I) - видас про ddd в питоне
+* \*\*\*\*[Алексей Мерсон — Domain-driven design: рецепт для прагматика](https://www.youtube.com/watch?v=CR9mLGN9jh0) - видас про ddd на c\#
+* [Modular Monolith with DDD](https://github.com/kgrzybek/modular-monolith-with-ddd) - пример проекта с подробным описанием как все устроено
 
