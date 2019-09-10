@@ -20,7 +20,7 @@
 
 На Linux ставится по [интрукции](https://docs.docker.com/install/linux/docker-ce/ubuntu/), или если речь идет о серваке, то хостинги \(например, reg.ru и DigitalOcean\) предоставляют машинки с предустановленным докером:
 
-![reg.ru](../.gitbook/assets/image%20%282%29.png)
+![reg.ru](../.gitbook/assets/image%20%289%29.png)
 
 ### Запуск контейнера
 

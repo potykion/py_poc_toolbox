@@ -9,10 +9,14 @@
 * [line\_profiler](pages/line_profiler.md)
 * [Postgres](pages/postgres.md)
 * [Питон-пакеты и PyPI](pages/pypi.md)
-* [Supervisor](pages/supervisor.md)
-* [Jenkins](pages/jenkins.md)
-* [Docker](pages/docker.md)
 * [ElasticSearch](pages/elasticsearch.md)
 * [Рандом](pages/random.md)
 * [DDD](pages/ddd.md)
+
+## Devops
+
+* [Supervisor](devops/supervisor.md)
+* [Jenkins](devops/jenkins.md)
+* [Docker](devops/docker.md)
+* [Jenkins + Docker](devops/jenkins-+-docker.md)
 
