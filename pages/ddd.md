@@ -18,6 +18,8 @@
 ### Материалы
 
 * [Борис Цема, Wargaming.net «Как мы уменьшили сложность наших проектов»](https://www.youtube.com/watch?v=45rk0iyTn7I) - видас про ddd в питоне
+* [Robert Smallshire - Domain Driven Design Patterns in Python](https://www.youtube.com/watch?v=Ru2T4fu3bGQ) - еще про ddd в питоне
 * \*\*\*\*[Алексей Мерсон — Domain-driven design: рецепт для прагматика](https://www.youtube.com/watch?v=CR9mLGN9jh0) - видас про ddd на c\#
+* [Максим Аршинов — Быстрорастворимое проектирование](https://www.youtube.com/watch?v=qJPwSvDLmQE) - еще про ddd на c\#
 * [Modular Monolith with DDD](https://github.com/kgrzybek/modular-monolith-with-ddd) - пример проекта с подробным описанием как все устроено
 
