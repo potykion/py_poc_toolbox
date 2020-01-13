@@ -122,7 +122,8 @@ Markdown так же можно использовать в качестве я�
 * [Carol Willing - Practical Sphinx - PyCon 2018](https://www.youtube.com/watch?v=0ROZRNZkPS8) - хороший вводный видос: установка, рендеринг разных форматов, обзор расширений, директив, воркфлоу по написанию доков
 * \*\*\*\*[Документирование проектов на Python с помощью Sphinx / Николай Карелин \[Python Meetup 24.06.2016\]](https://www.youtube.com/watch?v=xNSf1g4O4RU) - описание работы sphinx, rst-синтаксиса, директив
 
-### Еще
+### Еще ссылочки
 
-{% embed url="https://github.com/yoloseem/awesome-sphinxdoc" %}
+* [https://samnicholls.net/2016/06/15/how-to-sphinx-readthedocs/](https://samnicholls.net/2016/06/15/how-to-sphinx-readthedocs/) - норм гайд по сетапу
+* [https://github.com/yoloseem/awesome-sphinxdoc](https://github.com/yoloseem/awesome-sphinxdoc) - моды на сфинкс
 
